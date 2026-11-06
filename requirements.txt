@@ -1,0 +1,13 @@
+# Core scientific computing
+numpy
+pandas
+scipy
+scikit-learn
+
+# Deep learning
+torch
+transformers
+
+# Reproducibility and model utilities
+safetensors
+accelerate

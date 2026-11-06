@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+data/raw/
+data/external/
+data/processed/
+*.fastq
+*.fastq.gz
+*.fasta
+*.fa
+*.fai
+*.tsv.gz
+
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Training outputs
+logs/
+*.log
+checkpoints/
+outputs/
+
+# Backups
+*.tar
+*.tar.gz
+*.zip
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
