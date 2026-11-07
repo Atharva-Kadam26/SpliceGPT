@@ -132,7 +132,7 @@ SpliceGPT/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/SpliceGPT.git
+git clone https://github.com/Atharva-Kadam26/SpliceGPT.git
 cd SpliceGPT
 ```
 
@@ -168,3 +168,38 @@ Python | PyTorch | Hugging Face Transformers | HyenaDNA | DNABERT-2 | NumPy | Pa
 ## Research Focus
 
 Computational Genomics | Alternative Splicing | Deep Learning | Genomic Foundation Models | Sequence-Based Regression
+
+## Results and Visualizations
+
+### Overall Model Performance
+
+The following plots compare model performance on the held-out test set.
+
+**Mean Absolute Error (MAE)**
+
+![Overall MAE comparison](figures/overall_mae.png)
+
+**Root Mean Squared Error (RMSE)**
+
+![Overall RMSE comparison](figures/overall_rmse.png)
+
+**Pearson Correlation**
+
+![Overall Pearson correlation](figures/overall_pearson.png)
+
+### Mutation-Type-Specific Evaluation
+
+![Mutation-wise MAE comparison](figures/mutation_type_mae.png)
+
+### Bootstrap Analysis
+
+![Bootstrap MAE improvement](figures/bootstrap_mae_improvement.png)
+
+### HyenaDNA Fine-Tuning Architecture
+
+![HyenaDNA partial fine-tuning architecture](figures/hyenadna_partial_finetuning_architecture.png)
+
+### Splice-Position Sensitivity
+
+![Splice-position sensitivity analysis](figures/splice_position_sensitivity.png)
+
